@@ -24,7 +24,7 @@ class YoutubeClient(object):
 
         api_service_name = "youtube"
         api_version = "v3"
-        client_secrets_file = "/secrets/client_secret.json"
+        client_secrets_file = "./secrets/client_secret.json"
 
         # Get credentials and create an API client
         scopes = ["https://www.googleapis.com/auth/youtube.readonly"]

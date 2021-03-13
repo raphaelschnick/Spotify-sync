@@ -1,11 +1,9 @@
-from /secrets/secrets import spotify_token, spotify_user_id
-
 from youtube_client import YoutubeClient
 from spotify_client import SpotifyClient
 
 def run():
     youtube_client = YoutubeClient()
-    spotify_client = SpotifyClient(spotify_token)
+    spotify_client = SpotifyClient('/secrets/secrets.spotify_token')
     playlists = youtube_client.get_playlists()
 
     for index, playlist in enumerate(playlists):
