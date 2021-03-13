@@ -103,8 +103,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-secrets.py
-client_secret.json
+secrets/
 .env
 .venv
 env/
@@ -130,3 +129,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+client_secret.json

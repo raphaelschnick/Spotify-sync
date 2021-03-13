@@ -1,4 +1,4 @@
-from secrets import spotify_token, spotify_user_id
+from /secrets/secrets import spotify_token, spotify_user_id
 
 from youtube_client import YoutubeClient
 from spotify_client import SpotifyClient
