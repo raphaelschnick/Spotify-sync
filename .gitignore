@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+secrets.py
+client_secrets.json
+
 # C extensions
 *.so
 
